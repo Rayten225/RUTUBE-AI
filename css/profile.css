@@ -42,3 +42,312 @@ margin-top: 114px;
 
 background: #1D232A;
 }
+
+.close{
+width: 30px;
+height: 30px;
+
+margin-left: 25px;
+margin-top: 25px;
+}
+
+.profile{
+position: absolute;
+color: #FFF;
+
+font-family: ok;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+margin-left: 80px;
+margin-top: -55px;
+}
+
+.separation {
+width: 263.002px;
+height: 1px;
+margin-left: 371px;
+margin-top: -735px;
+
+background: #F00;
+}
+
+.blockvblocke{
+width: 263px;
+height: 50px;
+margin-left: 371px;
+margin-top: 20px;
+
+border-radius: 10px;
+background: #15191E;
+}
+
+.setting {
+width: 39px;
+height: 39px;
+margin-left: 15px;
+margin-top: 5px;
+}
+
+.data {
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 70px;
+margin-top: -57px;
+
+}
+
+.videoicon {
+width: 39px;
+height: 39px;
+margin-left: 371px;
+margin-top: 15px;
+}
+
+.video {
+color: #E0E0E0;
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 427px;
+margin-top: -35px;
+}
+
+.block1{
+width: 875px;
+height: 98px;
+margin-left: 700px;
+margin-top: -205px;
+
+background: #1D232A;
+}
+
+.basicinformation{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 40px;
+margin-top: 7px;
+}
+
+.block2{
+position: absolute;
+width: 875px;
+height: 400px;
+margin-left: 700px;
+margin-top: 30px;
+
+background: #1D232A;
+}
+
+.header{
+width: 875px;
+height: 192px;
+margin-left: 0px;
+margin-top: 0px;
+
+background: #FFFFFF;
+}
+
+.avatar{
+width: 193px;
+height: 193px;
+margin-left: 0px;
+margin-top: -100px;
+border-radius: 50%;
+border: 10px solid #1D232A;
+background: #FFFFFF;
+}
+
+.uploadingphotos {
+position: absolute;
+width: 70px;
+height:70px;
+margin-left: 150px;
+margin-top: -60px;
+}
+
+.uploadingphotos1 {
+position: absolute;
+width: 70px;
+height: 70px;
+margin-left: 800px;
+margin-top: -140px;
+}
+
+.username{
+position: absolute;
+
+color: #D9D9D9;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 250px;
+margin-top: -80px;
+}
+
+.username1{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 250px;
+margin-top: -50px;
+}
+
+.description{
+position: absolute;
+
+color: #D9D9D9;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 250px;
+margin-top: 0px;
+}
+
+.description1{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 250px;
+margin-top: 30px;
+}
+
+.block3{
+width: 875px;
+height: 325px;
+margin-left: 700px;
+margin-top: 450px;
+
+background: #1D232A;
+}
+
+.contactdetails{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 40px;
+margin-top: 2px;
+}
+
+.lettericon {
+position: absolute;
+width: 70px;
+height: 70px;
+margin-left: 35px;
+margin-top: 95px;
+}
+
+.letter{
+position: absolute;
+
+color: #D9D9D9;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 130px;
+margin-top: 100px;
+}
+
+.letter1{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 130px;
+margin-top: 130px;
+}
+
+.separation1 {
+position: absolute;
+width: 790.018px;
+height: 1px;
+margin-left: 40px;
+margin-top: 190px;
+
+background: #F00;
+}
+
+.phoneicon {
+position: absolute;
+width: 70px;
+height: 70px;
+margin-left: 35px;
+margin-top: 220px;
+}
+
+.phone{
+position: absolute;
+
+color: #D9D9D9;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 130px;
+margin-top: 220px;
+}
+
+.phone1{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 130px;
+margin-top: 250px;
+}

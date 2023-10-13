@@ -4,57 +4,41 @@ body {
 
   @font-face {
     font-family: ok; 
-    src: url(assets/fonts/53492.ttf); 
+    src: url(53492.ttf); 
    }
 
 header {
-position: fixed;
 width: 100%;
-height: 8%;
-left: 0%;
-top: 0%;
-background: #1D232A;
+height: 68px;
+
+left: 0px;
+top: 0px;
+
 border: 1px solid #F00;
-}
-
-.menu {
-position: fixed;
-width: 19.625rem;
-height: 51.3125rem;
-top: 7.13rem;
-left: 21.6rem;
 background: #1D232A;
 }
-.profile {
-color: #FFF;
 
-margin-left:5rem; 
-margin-top:-3.7rem;
+.menu{
+width: 66px;
+height: 56px;
 
-font-family: 'ok';
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+margin-left: 15px;
+margin-top: 6px;
 }
 
-.strip{
-background: #F00;
+.icon{
+width: 182px;
+height: 68px;
 
-margin-left:1.6rem; 
-margin-top:2.2rem;
-
-width: 16.43763rem;
-height: 0.0625rem;
+margin-left: 90px;
+margin-top: 0px;
 }
 
-.block{
-border-radius: 0.625rem;
-background: #15191E;
+.block {
+width: 314px;
+height: 821px;
+margin-left: 345px;
+margin-top: 114px;
 
-margin-left:1.4rem; 
-margin-top:1.3rem;
-
-width: 16.8rem;
-height: 3.125rem;
+background: #1D232A;
 }

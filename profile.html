@@ -14,8 +14,19 @@
 		<img src='assets/icons/menu.png' class='menu'>
 		<img src='assets/icon/icon.png' class='icon'>
 	</header>
-	
+	<style>   
+	@font-face {
+    font-family: ok; 
+    src: url("assets/fonts/RUTUBE/RF_RUTUBE_Bold.ttf") format("truetype");
+}
+    body {
+	background-color: #15191E;
+	font-famaly: ok;
+   }
+   </style>
 	<main>
+		<div class='container_left'>	
+		
 		<div class='block'>
 			<img src='assets/icons/icons8-close-96.png' class='close'>
 			<div class='profile'><h1>Профиль</h1></div>
@@ -26,18 +37,28 @@
 			<img src='assets/icons/icons8-settings-96.png' class='setting'>
 			<div class='data'><p>Мои данные</p></div>
 		</div>
+		<a href='video.html' class='a'>
 		<img src='assets/icons/icons8-video-camera-96.png' class='videoicon'>
 			<div class='video'>Мои видео</div>
-			
+		</a>
 		<div class='block1'>
 			<div class='basicinformation'><h2>Основная информация</h2></div>
 		</div>
 		
 		<div class='block2'>
-			<div class='header'></div>
-			<div class='avatar'></div>
-			<img src='assets/icons/icons8-camera-96 (2).png' class='uploadingphotos'>
-			<img src='assets/icons/icons8-camera-96 (2).png' class='uploadingphotos1'>			
+			<img src='assets/17478da42271207e1d86.jpg' class='header'>
+			<img src='assets/17478da42271207e1d86.jpg' class='avatar'>
+			<select class='uploadingphotos'>
+				<option selected value="0">Загрузить изображение</option>
+				<option value="1" name='fail' id='1'>Выбрать файл</option>			
+				<option value="2" name='picture2' id='2'>Сгенерировать изображение</option>
+			</select>
+			
+			<select class='uploadingphotos1'>
+				<option selected value="0">Загрузить изображение</option>
+				<option value="1" name='fail' id='1'>Выбрать файл</option>			
+				<option value="2" name='picture2' id='2'>Сгенерировать изображение</option>
+			</select>
 			<div class='username'>Имя канала</div>
 			<div class='username1'>(Имя канала)</div>
 			<div class='description'>Описание канала</div>
@@ -54,6 +75,7 @@
 			<div class='phone'>Номер телефона</div>
 			<div class='phone1'>(Номер телефона)</div>	
 		
+		</div>
 		</div>
 	</main>
 

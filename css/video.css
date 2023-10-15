@@ -1,0 +1,469 @@
+body {
+ background-color: #15191E;
+ font-famaly: ok;
+   }
+
+  @font-face {
+    font-family: ok; 
+    src: url("assets/fonts/RUTUBE/RF_RUTUBE_Bold.ttf") format("truetype");
+   }
+
+.container_left{
+position:relative;
+right:6rem;
+}
+
+header {
+z-index: 1;
+position: fixed;
+width: 100%;
+height: 68px;
+
+left: 0px;
+top: 0px;
+
+border: 1px solid #F00;
+background: #1D232A;
+}
+
+.menu{
+width: 66px;
+height: 56px;
+
+margin-left: 15px;
+margin-top: 6px;
+}
+
+.icon{
+width: 182px;
+height: 68px;
+
+margin-left: 90px;
+margin-top: 0px;
+}
+
+.block {
+width: 314px;
+height: 821px;
+margin-left: 345px;
+margin-top: 114px;
+
+background: #1D232A;
+}
+
+.close{
+width: 30px;
+height: 30px;
+
+margin-left: 25px;
+margin-top: 25px;
+}
+
+.profile{
+position: absolute;
+color: #FFF;
+font-family: ok;
+font-size: 15px;
+font-style: normal;
+line-height: normal;
+
+margin-left: 80px;
+margin-top: -55px;
+}
+
+.separation {
+width: 263.002px;
+height: 1px;
+margin-left: 371px;
+margin-top: -735px;
+
+background: #F00;
+}
+
+.blockvblocke{
+width: 263px;
+height: 50px;
+margin-left: 371px;
+margin-top: 20px;
+
+border-radius: 10px;
+background: #15191E;
+}
+
+.setting {
+width: 39px;
+height: 39px;
+margin-left: 371px;
+margin-top: 20px;
+}
+
+.data {
+color: #D9D9D9;
+text-decoration: none;
+font-family: ok;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 427px;
+margin-top: -60px;
+
+}
+
+.a {
+text-decoration: none;
+}
+
+.videoicon {
+width: 39px;
+height: 39px;
+margin-left: 15px;
+margin-top: 5px;
+}
+
+.video {
+color: #FFFFFF;
+text-decoration: none;
+font-family: ok;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 70px;
+margin-top: -38px;
+}
+
+.block1{
+position: absolute;
+width: 800px;
+height: 98px;
+margin-left: 700px;
+margin-top: -215px;
+
+
+background: #1D232A;
+}
+
+.basicinformation{
+position: absolute;
+
+color: #FFFFFF;
+
+font-family: ok;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 40px;
+margin-top: 7px;
+}
+
+.block2{
+position: absolute;
+width: 800px;
+height: 600px;
+margin-left: 700px;
+margin-top: -90px;
+
+background: #1D232A;
+}
+
+.cover{
+position:relative;
+width: 252px;
+height: 157px;
+margin-left: 75px;
+margin-top: 25px;
+
+background: #FFFFFF;
+}
+
+.cover1 {
+width: 252px;
+height: 157px;
+margin-left: 0px;
+margin-top: 0px;
+
+object-fit: cover;
+object-position: center;
+}
+
+.editvideo {
+position: absolute;
+width: 60px;
+height:60px;
+margin-left: -280px;
+margin-top: -20px;
+}
+
+.uploadingphotos {
+position: absolute;
+margin-left: -245px;
+margin-top: 175px;
+}
+
+
+
+
+/* <select> styles */
+select {
+position: absolute;
+font-family: ok;
+font-size: 15px;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* Personalize */
+  height:50px;
+  width: 15rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #15191E;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+ 
+
+
+/*
+.namevideo{
+color: #FFFFFF;
+font-family: ok;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 70px;
+margin-top: 20px;
+*/
+}
+
+.namevideo span{
+position: absolute;
+color:#fff;
+font-family: ok;
+font-size: 22px;
+margin-left: 30px;
+margin-top: 70px;
+}
+
+
+.cover2{
+position:relative;
+width: 252px;
+height: 157px;
+margin-left: 475px;
+margin-top: -155px;
+
+background: #FFFFFF;
+}
+
+.cover3 {
+width: 252px;
+height: 157px;
+margin-left: 0px;
+margin-top: 0px;
+
+object-fit: cover;
+object-position: center;
+}
+
+.editvideo1 {
+position: absolute;
+width: 60px;
+height:60px;
+margin-left: -280px;
+margin-top: -20px;
+}
+
+.uploadingphotos1 {
+position: absolute;
+margin-left: -245px;
+margin-top: 175px;
+}
+
+
+
+
+/* <select> styles */
+select {
+position: absolute;
+font-family: ok;
+font-size: 15px;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* Personalize */
+  height:50px;
+  width: 15rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #15191E;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+ 
+
+
+/*
+.namevideo{
+color: #FFFFFF;
+font-family: ok;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 70px;
+margin-top: 20px;
+*/
+}
+
+.namevideo1 span{
+position: absolute;
+color:#fff;
+font-family: ok;
+font-size: 22px;
+margin-left: 30px;
+margin-top: 70px;
+}
+
+
+
+
+.cover4{
+position:relative;
+width: 252px;
+height: 157px;
+margin-left: 75px;
+margin-top: 125px;
+
+background: #FFFFFF;
+}
+
+.cover5 {
+width: 252px;
+height: 157px;
+margin-left: 0px;
+margin-top: 0px;
+
+object-fit: cover;
+object-position: center;
+}
+
+.editvideo2 {
+position: absolute;
+width: 60px;
+height:60px;
+margin-left: -280px;
+margin-top: -20px;
+}
+
+.uploadingphotos2 {
+position: absolute;
+margin-left: -245px;
+margin-top: 175px;
+}
+
+
+
+
+/* <select> styles */
+select {
+position: absolute;
+font-family: ok;
+font-size: 15px;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* Personalize */
+  height:50px;
+  width: 15rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #15191E;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+ 
+
+
+/*
+.namevideo{
+color: #FFFFFF;
+font-family: ok;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 70px;
+margin-top: 20px;
+*/
+}
+
+.namevideo2 span{
+position: absolute;
+color:#fff;
+font-family: ok;
+font-size: 22px;
+margin-left: 30px;
+margin-top: 70px;
+}
+
+
+
+/* <select> styles */
+.uploadavideo {
+margin-left: 450px;
+margin-top: -80px;
+position: absolute;
+font-family: ok;
+font-size: 15px;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* Personalize */
+  height:50px;
+  width: 17rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #15191E;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+ 

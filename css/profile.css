@@ -1,13 +1,18 @@
 body {
  background-color: #15191E;
+ font-famaly: ok;
    }
 
   @font-face {
     font-family: ok; 
-    src: url(53492.ttf); 
+    src: url("assets/fonts/RUTUBE/RF_RUTUBE_Bold.ttf") format("truetype");
    }
 
+
+
 header {
+z-index: 1;
+position: fixed;
 width: 100%;
 height: 68px;
 
@@ -54,11 +59,9 @@ margin-top: 25px;
 .profile{
 position: absolute;
 color: #FFF;
-
 font-family: ok;
 font-size: 15px;
 font-style: normal;
-font-weight: 400;
 line-height: normal;
 
 margin-left: 80px;
@@ -94,7 +97,7 @@ margin-top: 5px;
 .data {
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -111,10 +114,14 @@ margin-left: 371px;
 margin-top: 15px;
 }
 
-.video {
-color: #E0E0E0;
+.a {
+text-decoration: none;
+}
 
-font-family: Inter;
+.video {
+color: #D9D9D9;
+
+font-family: ok;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -124,7 +131,8 @@ margin-top: -35px;
 }
 
 .block1{
-width: 875px;
+position: absolute;
+width: 800px;
 height: 98px;
 margin-left: 700px;
 margin-top: -205px;
@@ -137,7 +145,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -148,21 +156,24 @@ margin-top: 7px;
 
 .block2{
 position: absolute;
-width: 875px;
+width: 800px;
 height: 400px;
 margin-left: 700px;
-margin-top: 30px;
+margin-top: -75px;
 
 background: #1D232A;
 }
 
 .header{
-width: 875px;
+width: 800px;
 height: 192px;
 margin-left: 0px;
 margin-top: 0px;
 
 background: #FFFFFF;
+
+object-fit: cover;
+object-position: center;
 }
 
 .avatar{
@@ -172,23 +183,25 @@ margin-left: 0px;
 margin-top: -100px;
 border-radius: 50%;
 border: 10px solid #1D232A;
-background: #FFFFFF;
+object-fit: cover;
+object-position: center;
+
 }
 
 .uploadingphotos {
 position: absolute;
-width: 70px;
+width: 200px;
 height:70px;
-margin-left: 150px;
-margin-top: -60px;
+margin-left: -200px;
+margin-top: 117px;
 }
 
 .uploadingphotos1 {
 position: absolute;
-width: 70px;
+width: 220px;
 height: 70px;
-margin-left: 800px;
-margin-top: -140px;
+margin-left: 350px;
+margin-top: -30px;
 }
 
 .username{
@@ -196,7 +209,7 @@ position: absolute;
 
 color: #D9D9D9;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -210,7 +223,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 23px;
 font-style: normal;
 font-weight: 400;
@@ -224,7 +237,7 @@ position: absolute;
 
 color: #D9D9D9;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -238,7 +251,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 23px;
 font-style: normal;
 font-weight: 400;
@@ -248,10 +261,10 @@ margin-top: 30px;
 }
 
 .block3{
-width: 875px;
+width: 800px;
 height: 325px;
 margin-left: 700px;
-margin-top: 450px;
+margin-top: 350px;
 
 background: #1D232A;
 }
@@ -261,7 +274,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -283,7 +296,7 @@ position: absolute;
 
 color: #D9D9D9;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -297,7 +310,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 23px;
 font-style: normal;
 font-weight: 400;
@@ -308,7 +321,7 @@ margin-top: 130px;
 
 .separation1 {
 position: absolute;
-width: 790.018px;
+width: 730.018px;
 height: 1px;
 margin-left: 40px;
 margin-top: 190px;
@@ -329,7 +342,7 @@ position: absolute;
 
 color: #D9D9D9;
 
-font-family: Inter;
+font-family: ok;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -343,7 +356,7 @@ position: absolute;
 
 color: #FFFFFF;
 
-font-family: Inter;
+font-family: ok;
 font-size: 23px;
 font-style: normal;
 font-weight: 400;
@@ -351,3 +364,33 @@ line-height: normal;
 margin-left: 130px;
 margin-top: 250px;
 }
+.container_left{
+position:relative;
+right:6rem;
+}
+
+
+select {
+position: absolute;
+font-family: ok;
+font-size: 15px;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* Personalize */
+  height:50px;
+  width: 15rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #15191E;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
